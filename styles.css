@@ -1,0 +1,180 @@
+/* ============================================
+   TYPOGRAPHY & FONTS
+   ============================================ */
+
+/* Import Google Fonts: Poppins (for headings) and Inter (for body text) */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@400;500&display=swap');
+
+
+/* ============================================
+   GLOBAL LAYOUT
+   ============================================ */
+
+/* Global body styling */
+body {
+    /* Bright green background color */
+    background-color: rgb(61, 239, 61);
+    /* Use Inter font family with sans-serif fallback */
+    font-family: 'Inter', sans-serif;
+    /* Remove default margins */
+    margin: 0;
+    /* Add 20px padding around entire page */
+    padding: 20px;
+}
+
+
+/* ============================================
+   HEADINGS - All Levels
+   ============================================ */
+
+/* Main heading (h1) styling */
+h1 {
+    /* Large font size for main heading */
+    font-size: 48px;
+    /* Center-align the heading text within its container */
+    text-align: center;
+    /* White text color for contrast against green background */
+    color: white;
+    /* Use Poppins font for headings */
+    font-family: 'Poppins', sans-serif;
+    /* Bold font weight */
+    font-weight: 700;
+    /* Space between heading and content below */
+    margin-bottom: 30px;
+    
+    /* BOX STYLING - Creates visible border around the heading */
+    /* border: Creates a 5px solid white border outline around the heading text */
+    border: 5px solid white;
+    /* padding: Adds internal spacing (15px top/bottom, 25px left/right) between text and border edges */
+    padding: 15px 25px;
+    /* border-radius: Rounds the corners of the box by 10px for a modern, softer appearance */
+    border-radius: 10px;
+    
+    /* CENTERING THE BOX - Makes the box itself centered on the page */
+    /* display: block; makes the h1 a block-level element so margins can center it */
+    display: block;
+    /* margin-left: auto; and margin-right: auto; work together to center the box horizontally */
+    /* They push equal amounts of space on both sides, centering the element */
+    margin-left: auto;
+    margin-right: auto;
+    /* width: fit-content; makes the box only as wide as its content needs */
+    /* This allows the auto margins to center just the box, not stretch it full width */
+    width: fit-content;
+}
+
+/* Section heading (h2) styling */
+h2 {
+    /* Large secondary heading size */
+    font-size: 32px;
+    /* Center-align section headings */
+    text-align: center;
+    /* White text on green background */
+    color: white;
+    /* Poppins font family */
+    font-family: 'Poppins', sans-serif;
+    /* Bold font weight */
+    font-weight: 700;
+}
+
+/* Tertiary heading (h3) styling */
+h3 {
+    /* Medium font size for subheadings */
+    font-size: 24px;
+    /* White text color */
+    color: white;
+    /* Poppins font for consistency */
+    font-family: 'Poppins', sans-serif;
+    /* Semi-bold font weight */
+    font-weight: 600;
+}
+
+
+/* ============================================
+   TEXT & TYPOGRAPHY
+   ============================================ */
+
+/* Paragraph (p) styling */
+p {
+    /* Body text font size for readability */
+    font-size: 18px;
+    /* 1.6 line spacing for better readability */
+    line-height: 1.6;
+    /* Dark gray text color */
+    color: #333;
+}
+
+/* Bold text (strong) styling */
+strong {
+    /* Green color for emphasis */
+    color: rgb(35, 236, 35);
+    /* Semi-bold font weight */
+    font-weight: 600;
+}
+
+
+/* ============================================
+   SECTION CONTAINERS
+   ============================================ */
+
+/* Section container styling */
+section {
+    /* White background for content areas */
+    background-color: white;
+    /* Rounded corners (12px radius) */
+    border-radius: 12px;
+    /* Dark border around sections */
+    border: 3px solid #333;
+    /* Internal spacing for content */
+    padding: 40px;
+    /* Vertical spacing between sections, centered horizontally */
+    margin: 30px auto;
+    /* Maximum width to prevent text from stretching too wide */
+    max-width: 800px;
+    /* Subtle shadow effect for depth */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Section heading (h2) styling inside sections */
+section h2 {
+    /* Dark gray text for section headings inside white sections */
+    color: #333;
+    /* Left-align headings within sections */
+    text-align: left;
+    /* Remove top margin */
+    margin-top: 0;
+    /* Green underline separator */
+    border-bottom: 3px solid rgb(35, 236, 35);
+    /* Space between heading and underline */
+    padding-bottom: 15px;
+}
+
+/* Subheading (h3) styling inside sections */
+section h3 {
+    /* Green color matching the brand theme */
+    color: rgb(35, 236, 35);
+    /* Top spacing to separate from content above */
+    margin-top: 20px;
+    /* Bottom spacing before following content */
+    margin-bottom: 10px;
+}
+
+
+/* ============================================
+   IMAGE STYLING
+   ============================================ */
+
+/* Image card styling */
+section img {
+    /* Rounded corners for a modern look */
+    border-radius: 12px;
+    /* Bold border around the image */
+    border: 4px solid rgb(35, 236, 35);
+    /* Shadow effect for depth and elevation */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    /* Padding inside the box for breathing room */
+    padding: 15px;
+    /* Light background color behind the image */
+    background-color: #f5f5f5;
+    /* Bottom margin for spacing from content below */
+    margin-bottom: 30px;
+}
