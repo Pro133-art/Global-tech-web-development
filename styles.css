@@ -77,8 +77,8 @@ header {
 
 /* Main heading (h1) styling */
 h1 {
-    /* Responsive font size based on viewport width - increased by 10px */
-    font-size: clamp(18px, 6vw, 38px);
+    /* Responsive font size based on viewport width - increased by 30px total */
+    font-size: clamp(38px, 6vw, 58px);
     /* Center-align the heading text within its container */
     text-align: center;
     /* White text color for contrast against green background */
@@ -87,15 +87,17 @@ h1 {
     font-family: 'Poppins', sans-serif;
     /* Bold font weight */
     font-weight: 700;
+    /* Stretch the text horizontally with letter spacing */
+    letter-spacing: 0.08em;
     /* Responsive spacing between heading and content below */
-    margin-bottom: 2vw;
+    margin-bottom: 1.5vw;
     margin-top: 0;
     
     /* BOX STYLING - Creates visible border around the heading */
     /* border: Creates a responsive white border outline around the heading text */
     border: 4px solid white;
-    /* padding: Responsive internal spacing - proportional to larger font */
-    padding: clamp(10px, 1.8vw, 18px) clamp(15px, 3vw, 25px);
+    /* padding: Increased proportionally with larger font size */
+    padding: clamp(12px, 1.5vw, 20px) clamp(18px, 2.5vw, 30px);
     /* border-radius: Rounds the corners of the box by 10px for a modern, softer appearance */
     border-radius: 10px;
     
