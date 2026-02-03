@@ -4,6 +4,7 @@
 
 /* Import Google Fonts: Poppins (for headings) and Inter (for body text) */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
 
 
 /* ============================================
@@ -120,6 +121,24 @@ h1 {
     /* width: fit-content; makes the box only as wide as its content needs */
     /* This allows the auto margins to center just the box, not stretch it full width */
     width: fit-content;
+    /* Use Orbitron font for a techy aesthetic */
+    font-family: 'Orbitron', 'Poppins', sans-serif;
+    /* Green color for emphasis */
+    color: #00fff7;
+    /* Bold font weight */
+    font-weight: 700;
+    /* Stretch the text horizontally with letter spacing */
+    letter-spacing: 0.12em;
+    /* Text transform for uppercase */
+    text-transform: uppercase;
+    /* Background gradient */
+    background: linear-gradient(90deg, #00fff7 0%, #00d4ff 50%, #00fff7 100%);
+    /* Background clip */
+    background-clip: text;
+    /* Text fill color */
+    -webkit-text-fill-color: transparent;
+    /* Filter for drop-shadow */
+    filter: drop-shadow(0 0 8px #00fff7) drop-shadow(0 0 18px #00d4ff);
 }
 
 /* Section heading (h2) styling */
